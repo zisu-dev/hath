@@ -12,5 +12,5 @@ WORKDIR /hath
 COPY --from=builder HentaiAtHome.jar HentaiAtHome.jar
 COPY start.sh start.sh
 RUN chmod +x start.sh
-CMD [ "start.sh" ]
+CMD [ "/hath/start.sh" ]
 VOLUME [ "/hath/data" ]
