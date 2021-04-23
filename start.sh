@@ -1,6 +1,6 @@
 #!/bin/sh
 
-if [ $CLIENT_ID ] && [ $CLIENT_KEY ] then
+if [ $CLIENT_ID ] && [ $CLIENT_KEY ]; then
   echo -n "${CLIENT_ID}-${CLIENT_KEY}" > /hath/data/data/client_login
 else
   if [ ! -f /hath/data/data/client_login ]; then
