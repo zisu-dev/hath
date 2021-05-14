@@ -34,3 +34,4 @@ jobs:
           push: true
           tags: |
             ghcr.io/zisu-dev/hath:latest
+            ghcr.io/zisu-dev/hath:1.6.1
