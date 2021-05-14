@@ -33,4 +33,4 @@ jobs:
           platforms: linux/amd64
           push: true
           tags: |
-            ghcr.io/thezzisu/hath:latest
+            ghcr.io/zisu-dev/hath:latest
