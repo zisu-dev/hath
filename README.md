@@ -12,5 +12,5 @@ distribution system which reduces the load on the E-Hentai Galleries.
 ```sh
 # start H@H client
 # $PORT, $CLIENT_ID and $CLIENT_KEY could be found in H@H settings panel
-docker run -d --restart always --name hath -p $PORT:$PORT -e CLIENT_ID=$CLIENT_ID -e CLIENT_KEY=$CLIENT_KEY docker.io/zzisu/hath
+docker run -d --restart always --name hath -p $PORT:$PORT -e CLIENT_ID=$CLIENT_ID -e CLIENT_KEY=$CLIENT_KEY ghcr.io/zisu-dev/hath:1.6.1
 ```
